@@ -4,6 +4,8 @@
 [![PyPI](https://img.shields.io/pypi/v/dash-performance-monitor-plugin.svg?color=dark-green)](https://pypi.org/project/dash-performance-monitor-plugin/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
+English | [简体中文](./README-zh_CN.md)
+
 A plugin to add extra performance monitor for Dash applications using Dash Hooks.
 
 ## Installation
@@ -16,6 +18,7 @@ pip install dash-performance-monitor-plugin
 
 ```python
 from dash import Dash
+
 # Import the performance monitor plugin
 from dash_performance_monitor_plugin import setup_performance_monitor_plugin
 
@@ -23,6 +26,7 @@ from dash_performance_monitor_plugin import setup_performance_monitor_plugin
 setup_performance_monitor_plugin()
 
 app = Dash(__name__)
+
 # Rest of your app code...
 ```
 
